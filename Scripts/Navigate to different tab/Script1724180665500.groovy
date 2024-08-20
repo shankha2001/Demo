@@ -19,3 +19,26 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('Google.com')
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://automationtesting.co.uk/browserTabs.html')
+
+// List to store window titles
+List<String> windowTitles = []
+
+for (i = 0; i < 3; i++) {
+    WebUI.click(findTestObject('Navigate/Browse Tab'))
+
+    String title = WebUI.getWindowTitle()
+
+    windowTitles.add(title)
+}
+
+int numberOfWindows = windowTitles.size()
+
+for (index = 0; index <= numberOfWindows; index++) {
+    WebUI.switchToWindowIndex(index)
+
+    WebUI.delay(5)
+}
+
