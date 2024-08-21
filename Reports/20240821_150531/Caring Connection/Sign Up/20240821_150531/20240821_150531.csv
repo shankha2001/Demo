@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sign Up,Chrome 127.0.0.0,3 times,,21-08-2024 15:05:34,21-08-2024 15:07:05,1m - 31.061s,FAILED
+,,,,,,,
+Test Cases/Caring Connection/Sign Up,Chrome 127.0.0.0,,,21-08-2024 15:05:35,21-08-2024 15:06:13,38.679s,FAILED
+"openBrowser(""https://caring-connections-qa.azurewebsites.net/"")",Chrome 127.0.0.0,,,21-08-2024 15:05:35,21-08-2024 15:05:53,17.728s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,21-08-2024 15:05:53,21-08-2024 15:05:53,0.082s,PASSED
+"click(findTestObject(""Caring Connection/Page_CaringConnections-v-1.19/Sign Up(1)""))",Chrome 127.0.0.0,,,21-08-2024 15:05:53,21-08-2024 15:06:01,8.246s,PASSED
+"setText(findTestObject(""Caring Connection/Page_CaringConnections-v-1.19/input__name""), name)",Chrome 127.0.0.0,,,21-08-2024 15:06:01,21-08-2024 15:06:02,0.872s,PASSED
+"setText(findTestObject(""Caring Connection/Page_CaringConnections-v-1.19/input__zipcode""), zipcode)",Chrome 127.0.0.0,,,21-08-2024 15:06:02,21-08-2024 15:06:13,11.490s,FAILED
+,,,,,,,
+Test Cases/Caring Connection/Sign Up,Chrome 127.0.0.0,,,21-08-2024 15:06:13,21-08-2024 15:06:13,0.079s,FAILED
+"openBrowser(""https://caring-connections-qa.azurewebsites.net/"")",Chrome 127.0.0.0,,,21-08-2024 15:06:13,21-08-2024 15:06:13,0.047s,FAILED
+,,,,,,,
+Test Cases/Caring Connection/Sign Up,Chrome 127.0.0.0,,,21-08-2024 15:06:14,21-08-2024 15:07:05,51.895s,FAILED
+"openBrowser(""https://caring-connections-qa.azurewebsites.net/"")",Chrome 127.0.0.0,,,21-08-2024 15:06:14,21-08-2024 15:06:31,17.833s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,21-08-2024 15:06:31,21-08-2024 15:06:32,0.146s,PASSED
+"click(findTestObject(""Caring Connection/Page_CaringConnections-v-1.19/Sign Up(1)""))",Chrome 127.0.0.0,,,21-08-2024 15:06:32,21-08-2024 15:06:33,1.555s,PASSED
+"setText(findTestObject(""Caring Connection/Page_CaringConnections-v-1.19/input__name""), name)",Chrome 127.0.0.0,,,21-08-2024 15:06:33,21-08-2024 15:06:34,0.816s,PASSED
+"setText(findTestObject(""Caring Connection/Page_CaringConnections-v-1.19/input__zipcode""), zipcode)",Chrome 127.0.0.0,,,21-08-2024 15:06:34,21-08-2024 15:07:05,31.519s,FAILED

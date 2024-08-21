@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sign Up,Chrome 127.0.0.0,3 times,,21-08-2024 14:55:05,21-08-2024 14:56:54,1m - 48.308s,FAILED
+,,,,,,,
+Test Cases/Caring Connection/Sign Up,Chrome 127.0.0.0,,,21-08-2024 14:55:06,21-08-2024 14:56:05,59.371s,FAILED
+"openBrowser(""https://caring-connections-qa.azurewebsites.net/"")",Chrome 127.0.0.0,,,21-08-2024 14:55:06,21-08-2024 14:55:28,21.972s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,21-08-2024 14:55:28,21-08-2024 14:55:28,0.201s,PASSED
+"click(findTestObject(""Caring Connection/Page_CaringConnections-v-1.19/Sign Up(1)""))",Chrome 127.0.0.0,,,21-08-2024 14:55:28,21-08-2024 14:55:32,3.810s,PASSED
+"sendKeys(findTestObject(""Caring Connection/Page_CaringConnections-v-1.19/input__name""), name)",Chrome 127.0.0.0,,,21-08-2024 14:55:32,21-08-2024 14:55:32,0.560s,PASSED
+"setText(findTestObject(""Caring Connection/Page_CaringConnections-v-1.19/input__zipcode""), zipcode)",Chrome 127.0.0.0,,,21-08-2024 14:55:32,21-08-2024 14:56:05,32.507s,FAILED
+,,,,,,,
+Test Cases/Caring Connection/Sign Up,Chrome 127.0.0.0,,,21-08-2024 14:56:05,21-08-2024 14:56:51,45.817s,FAILED
+"openBrowser(""https://caring-connections-qa.azurewebsites.net/"")",Chrome 127.0.0.0,,,21-08-2024 14:56:05,21-08-2024 14:56:16,11.122s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,21-08-2024 14:56:16,21-08-2024 14:56:16,0.104s,PASSED
+"click(findTestObject(""Caring Connection/Page_CaringConnections-v-1.19/Sign Up(1)""))",Chrome 127.0.0.0,,,21-08-2024 14:56:16,21-08-2024 14:56:18,2.170s,PASSED
+"sendKeys(findTestObject(""Caring Connection/Page_CaringConnections-v-1.19/input__name""), name)",Chrome 127.0.0.0,,,21-08-2024 14:56:18,21-08-2024 14:56:19,0.529s,PASSED
+"setText(findTestObject(""Caring Connection/Page_CaringConnections-v-1.19/input__zipcode""), zipcode)",Chrome 127.0.0.0,,,21-08-2024 14:56:19,21-08-2024 14:56:51,31.876s,FAILED
+,,,,,,,
+Test Cases/Caring Connection/Sign Up,Chrome 127.0.0.0,,,21-08-2024 14:56:51,21-08-2024 14:56:54,2.766s,FAILED
+"openBrowser(""https://caring-connections-qa.azurewebsites.net/"")",Chrome 127.0.0.0,,,21-08-2024 14:56:51,21-08-2024 14:56:54,2.730s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,21-08-2024 14:56:54,21-08-2024 14:56:54,0.021s,FAILED

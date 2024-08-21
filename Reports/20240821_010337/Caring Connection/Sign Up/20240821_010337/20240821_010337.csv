@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sign Up,Chrome 127.0.0.0,3 times,,21-08-2024 01:03:40,21-08-2024 01:05:26,1m - 46.296s,FAILED
+,,,,,,,
+Test Cases/Caring Connection/Sign Up,Chrome 127.0.0.0,,,21-08-2024 01:03:40,21-08-2024 01:04:37,56.612s,FAILED
+"openBrowser(""https://caring-connections-qa.azurewebsites.net/"")",Chrome 127.0.0.0,,,21-08-2024 01:03:41,21-08-2024 01:03:56,15.831s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,21-08-2024 01:03:56,21-08-2024 01:03:57,0.087s,PASSED
+"click(findTestObject(""Caring Connection/Page_CaringConnections-v-1.19/Sign Up(1)""))",Chrome 127.0.0.0,,,21-08-2024 01:03:57,21-08-2024 01:04:04,7.923s,PASSED
+"setText(findTestObject(""Caring Connection/Page_CaringConnections-v-1.19/input__name""), name)",Chrome 127.0.0.0,,,21-08-2024 01:04:04,21-08-2024 01:04:05,0.879s,PASSED
+"sendKeys(findTestObject(""Caring Connection/Page_CaringConnections-v-1.19/input__zipcode""), zipcode)",Chrome 127.0.0.0,,,21-08-2024 01:04:05,21-08-2024 01:04:37,31.657s,FAILED
+,,,,,,,
+Test Cases/Caring Connection/Sign Up,Chrome 127.0.0.0,,,21-08-2024 01:04:37,21-08-2024 01:05:24,46.505s,FAILED
+"openBrowser(""https://caring-connections-qa.azurewebsites.net/"")",Chrome 127.0.0.0,,,21-08-2024 01:04:37,21-08-2024 01:04:50,13.135s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,21-08-2024 01:04:50,21-08-2024 01:04:50,0.080s,PASSED
+"click(findTestObject(""Caring Connection/Page_CaringConnections-v-1.19/Sign Up(1)""))",Chrome 127.0.0.0,,,21-08-2024 01:04:50,21-08-2024 01:04:52,1.755s,PASSED
+"setText(findTestObject(""Caring Connection/Page_CaringConnections-v-1.19/input__name""), name)",Chrome 127.0.0.0,,,21-08-2024 01:04:52,21-08-2024 01:05:24,31.519s,FAILED
+,,,,,,,
+Test Cases/Caring Connection/Sign Up,Chrome 127.0.0.0,,,21-08-2024 01:05:24,21-08-2024 01:05:26,2.891s,FAILED
+"openBrowser(""https://caring-connections-qa.azurewebsites.net/"")",Chrome 127.0.0.0,,,21-08-2024 01:05:24,21-08-2024 01:05:26,2.863s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,21-08-2024 01:05:26,21-08-2024 01:05:26,0.016s,FAILED
